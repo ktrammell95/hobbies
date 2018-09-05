@@ -7,3 +7,37 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+header, footer {
+  background: #56d0d0;
+  padding: 15px;
+}
+
+.navbar {
+  display: inline-flex;
+  list-style-type: none;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.navbar li {
+  padding: 15px 10px 0;
+}
+
+#main-content {
+  padding: 15px;
+  background: lightgray;
+}
+
+#main-content img {
+  width: 200px;
+  height: 100%;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile p {
+  padding: 0 10px;
+}
